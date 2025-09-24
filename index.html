@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Living Family Tree</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.3/lib/p5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<img class="fullscreen" src="assets/bg_base.png" alt="Full screen image" />
+<h1>The Living Family Tree</h1>
+<div id="hint"> 
+  Tip: Press "space" to start your journey.
+</div>
+
+<script>
+    document.addEventListener("keydown", function(event) {
+      if (event.code === "Space") {
+        window.location.href = "draft.html";
+      }
+    });
+</script>
+</body>
+</html>
+
